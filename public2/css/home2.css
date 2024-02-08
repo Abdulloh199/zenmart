@@ -848,24 +848,22 @@
   align-items: center;
 }
 
-.event_product_boxes .event_content_box {
-  margin-right: 8px;
+.event_product_boxes .event_product_box {
+  margin: 4px;
   width: 205px;
   height: 392px;
   display: flex;
   flex-direction: column;
   border-radius: 6px;
   background: #ffffff;
+  justify-content: space-between;
 }
 
 .event_product_box .event_product_img {
-  margin: 8px;
   width: 100%;
   height: 220px;
 
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
-
-
