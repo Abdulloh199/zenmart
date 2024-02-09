@@ -1,6 +1,6 @@
 /* home_page */
 .home_page {
-  padding-bottom: 80px;
+
   display: flex;
   flex-direction: column;
 }
