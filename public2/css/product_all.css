@@ -48,7 +48,7 @@
 .shop_page .header_frame .container {
   height: 422px;
   flex-direction: row;
-  background: url(/public2/images/icons/young\ women.png);
+  background: url(../images/icons/young\ women.png);
 }
 .shop_page .container .header_content {
   margin-left: 75px;
