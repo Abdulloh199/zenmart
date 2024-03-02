@@ -1,0 +1,298 @@
+.cart_page {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cart_page .title_div {
+  margin-top: 40px;
+}
+
+.cart_page .title_div span {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+}
+
+.cart_page .title_div p {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart_page .title_div img {
+  margin-top: 30px;
+}
+.shop_cart_frame .cart_top {
+  position: relative;
+  width: 800px;
+  height: 550px;
+}
+
+.shop_cart_frame .cart_top .left {
+  margin-right: 400px;
+  width: 800px;
+  height: 553px;
+  border: 2px solid #eaeaea;
+  border-radius: 6px;
+}
+
+.shop_cart_frame .cart_top .left .above {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: #eaeaea;
+}
+
+.shop_cart_frame .cart_top .left .above p {
+  padding-right: 111px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.shop_cart_frame .cart_top .left .above span {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.left_bottom .container {
+  width: 800px;
+  height: 170px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid #eaeaea;
+}
+
+.apple_type .apple {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+  text-align: left;
+}
+
+.apple_type {
+  margin-top: 20px;
+}
+
+.container img {
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 90px;
+  height: 80px;
+}
+.container .dollar {
+  margin-top: 25px;
+  margin-left: 42px;
+}
+
+.container .minus .plus {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.container .minus {
+  margin-top: 23px;
+  width: 70px;
+  height: 23px;
+  margin-left: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 2px solid #eaeaea;
+  border-radius: 12px;
+}
+.container .dolar {
+  margin-top: 25px;
+  margin-left: 72px;
+}
+
+.image img {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  margin-left: 90px;
+}
+
+.cart_page .shop_cart {
+  display: flex;
+  flex-direction: row;
+}
+
+.shop_cart .shop_card_right {
+  margin-left: 40px;
+  position: relative;
+  width: 350px;
+  height: 330px;
+
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #eaeaea;
+  border-radius: 6px;
+}
+
+.shop_card_right p {
+  margin-left: 48px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  display: flex;
+  font-size: larger;
+}
+
+.shop_card_right .product {
+  margin-left: 48px;
+  display: flex;
+  flex-direction: row;
+
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+}
+.shop_card_right .product .dollars {
+  margin-left: 120px;
+}
+
+.shop_card_right .free {
+  display: flex;
+  flex-direction: row;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.shop_card_right .free .shipping {
+  margin-left: 48px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.shop_card_right .free .free_div {
+  margin-left: 179px;
+  color: red;
+}
+
+.shop_card_right .total {
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid #eaeaea;
+  line-height: 50px;
+}
+
+.shop_card_right .total .Total_price {
+  margin-left: 48px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.shop_card_right .total .total_div {
+  margin-left: 205px;
+}
+
+.shop_card_right .jellow {
+  margin-left: 48px;
+  position: relative;
+  width: 280px;
+  height: 30px;
+  background-color: darkgoldenrod;
+  border-radius: 6px;
+}
+
+.shop_card_right .check {
+  padding-top: 5px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart_page .cart_bottom {
+  position: relative;
+  width: 800px;
+  margin-right: 390px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.cart_page .cart_bottom .coupang {
+  position: relative;
+  width: 600px;
+  height: 40px;
+  margin-right: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  border: 1px dashed #eaeaea;
+  border-radius: 6px;
+}
+.cart_page .cart_bottom .coupang p {
+  margin-top: 8px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: row;
+  font-size: small;
+}
+.cart_page .cart_bottom .coupang span {
+  margin-top: 8px;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: small;
+}
+.cart_page .cart_bottom .shopping {
+  position: relative;
+  width: 290px;
+  height: 35px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  border: 2px solid #8a8e3e;
+  border-radius: 6px;
+}
+
+.cart_page .cart_bottom .cardd{
+  position: relative;
+  width: 300px;
+  height: 35px;
+  display: flex;
+  font-size: small;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #8a8e3e;
+background-color: #8a8e3e;
+border-radius: 6px;
+} 
